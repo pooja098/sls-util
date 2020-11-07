@@ -28,4 +28,5 @@ fi
 echo "Provide a public github repository url"
 echo "Eg: https://github.com/lol/troll.git"
 
-# https://github.com/vercel/next.js.git
+# error exit to stop further execution of magic
+exit 1;
