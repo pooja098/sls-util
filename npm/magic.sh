@@ -11,10 +11,12 @@
 # bailout on first error
 set -e;
 
-# npm run check-sls;
+npm i
 
-# npm run setup-repo;
+npm run check-sls;
 
-# npm run setup-sls;
+npm run setup-repo;
+
+npm run setup-sls;
 
 npm run deploy;
