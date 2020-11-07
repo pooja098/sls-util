@@ -1,0 +1,12 @@
+# serverless.yml
+
+myNextApplication:
+  component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    bucketName: hello-bucket-lol
+    runtime:
+      defaultLambda: "nodejs10.x"
+      apiLambda: "nodejs10.x"
+    name:
+      defaultLambda: helloDefaultLambda-1
+      apiLambda: helloApiLambda-1

@@ -1,0 +1,28 @@
+{
+  "name": "sls-util",
+  "version": "1.0.0",
+  "description": "A nextjs serverless component setup helper thaat will serverlessify your nextjs application",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "bash ./npm/deploy.sh",
+    "magic": "bash ./npm/magic.sh",
+    "check-sls": "bash ./npm/check-sls.sh",
+    "setup-repo": "bash ./npm/setup-repo.sh",
+    "setup-sls": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pooja Thakrani",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "nunjucks": "3.2.2",
+    "shelljs": "0.8.4"
+  },
+  "engines": {
+    "node": "10.18.0"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}

@@ -1,0 +1,12 @@
+# serverless.yml
+
+nextApp:
+  component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    bucketName: nextjs-s3-bucket-name
+    runtime:
+      defaultLambda: "nodejs10.x"
+      apiLambda: "nodejs10.x"
+    name:
+      defaultLambda: defaultLambda
+      apiLambda: apiLambda
